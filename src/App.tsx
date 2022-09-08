@@ -11,16 +11,18 @@ const App = () => {
   }
 
   return (
-    <div className="App">
-      
-      <div>
-          <QRCode value={info} />
+    
+    <div className='App'>
+      <div className='header'>
+        <h1>QR Code Generator</h1>
+      </div>  
+      <div className='Box'>
+          <QRCode className='QR' value={info} />
           <input 
                 onChange={ (e) => handleInfo(e.target.value) } 
                 placeholder='Digite aqui...'
-          />    
+          />
       </div>
-
     </div>
   )
 }
