@@ -45,4 +45,18 @@
             outline-offset: 20px;
           }
     }
+    .Download{
+        margin-top: 4rem;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        border: 3px solid var(--green-400);
+        color: var(--green-400);
+        text-decoration: none;
+        transition: all 750ms;
+        &:hover {
+            background-color: var(--green-400);
+            color: var(--gray-900);
+            transition: all 750ms;
+        }
+    }
 }
