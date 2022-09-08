@@ -3,6 +3,13 @@
     padding: 0;
     margin: 0;
 }
+:root {
+    --white-100: #F2F2F2;
+    --green-400: #3DDAB4;
+    --gray-200: #393E46;
+    --gray-500: #222831;
+    --gray-900: #0A0211;
+}
 
 @media (max-width: 1080px){
     html{

@@ -4,10 +4,12 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black;
+    background-color: var(--gray-900);
     input {
         height: 2rem;
         border-radius: 1rem;
         padding: 1.5rem;
+        outline: none;
+        border: 1px solid var(--gray-500);
     }
 }
